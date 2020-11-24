@@ -9,7 +9,11 @@
 import UIKit
 
 class MVPPlayerTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var lblRank: UILabel!
+    @IBOutlet weak var imgTeam: UIImageView!
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblPoints: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
