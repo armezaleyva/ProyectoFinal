@@ -17,10 +17,9 @@ class Team {
     var streak: Int
     var img: String
     var players: [Player]
-    var fullName: String
     var teamImage: String
     
-    init(rank: Int, name: String, wins: Int, losses: Int, gameDiff: Int, streak: Int, img: String, players: [Player], fullName: String, teamImage: String) {
+    init(rank: Int, name: String, wins: Int, losses: Int, gameDiff: Int, streak: Int, img: String, players: [Player], teamImage: String) {
         self.rank = rank
         self.name = name
         self.wins = wins
@@ -29,7 +28,6 @@ class Team {
         self.streak = streak
         self.img = img
         self.players = players
-        self.fullName = fullName
         self.teamImage = teamImage
     }
 }
