@@ -20,7 +20,7 @@
 		3D4AE8BB256A9912004E4690 /* MVPPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE8BA256A9912004E4690 /* MVPPlayerTableViewCell.swift */; };
 		3D4AE8BD256A992F004E4690 /* TeamDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE8BC256A992F004E4690 /* TeamDetailsViewController.swift */; };
 		3D4AE8BF256B9E6B004E4690 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE8BE256B9E6B004E4690 /* PlayerDetailsViewController.swift */; };
-		3D4AE8C1256BA495004E4690 /* Aux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE8C0256BA495004E4690 /* Aux.swift */; };
+		3D4AE8C3256EC310004E4690 /* AuxLck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE8C2256EC310004E4690 /* AuxLck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		3D4AE8BA256A9912004E4690 /* MVPPlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPlayerTableViewCell.swift; sourceTree = "<group>"; };
 		3D4AE8BC256A992F004E4690 /* TeamDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewController.swift; sourceTree = "<group>"; };
 		3D4AE8BE256B9E6B004E4690 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
-		3D4AE8C0256BA495004E4690 /* Aux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aux.swift; sourceTree = "<group>"; };
+		3D4AE8C2256EC310004E4690 /* AuxLck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxLck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +72,12 @@
 		3D4AE899256A68E1004E4690 /* ProyectoFinal */ = {
 			isa = PBXGroup;
 			children = (
-				3D4AE8C0256BA495004E4690 /* Aux.swift */,
 				3D4AE8B1256A698D004E4690 /* Models */,
 				3D4AE8B0256A697B004E4690 /* Storyboards */,
 				3D4AE8AF256A6969004E4690 /* Controllers */,
 				3D4AE8AE256A6960004E4690 /* Config */,
 				3D4AE8A3256A6905004E4690 /* Assets.xcassets */,
+				3D4AE8C2256EC310004E4690 /* AuxLck.swift */,
 			);
 			path = ProyectoFinal;
 			sourceTree = "<group>";
@@ -200,8 +200,8 @@
 				3D4AE8B5256A78BE004E4690 /* TeamTableViewCell.swift in Sources */,
 				3D4AE8BF256B9E6B004E4690 /* PlayerDetailsViewController.swift in Sources */,
 				3D4AE89F256A68E1004E4690 /* SecondViewController.swift in Sources */,
+				3D4AE8C3256EC310004E4690 /* AuxLck.swift in Sources */,
 				3D4AE8B9256A98B1004E4690 /* Player.swift in Sources */,
-				3D4AE8C1256BA495004E4690 /* Aux.swift in Sources */,
 				3D4AE89B256A68E1004E4690 /* AppDelegate.swift in Sources */,
 				3D4AE8BD256A992F004E4690 /* TeamDetailsViewController.swift in Sources */,
 				3D4AE89D256A68E1004E4690 /* FirstViewController.swift in Sources */,
