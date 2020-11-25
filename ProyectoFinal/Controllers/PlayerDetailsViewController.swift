@@ -27,9 +27,9 @@ class PlayerDetailsViewController: UIViewController {
         self.lblFullName.text = player?.fullName
         self.lblMvpPoints.text = "\(player!.mvpPoints!) MVP points"
         self.imgRole.image = UIImage(named: (player?.role)!)
-        self.lblRole.text = Aux.getRoleName(shortRoleName: (player?.role)!)
+        self.lblRole.text = AuxLck.getRoleName(shortRoleName: (player?.role)!)
         self.imgTeam.image = UIImage(named: (player?.team)!)
-        self.lblTeam.text = Aux.getFullTeamName(shortTeamName: (player?.team)!)
+        self.lblTeam.text = AuxLck.getFullTeamName(shortTeamName: (player?.team)!)
     }
 
     override func didReceiveMemoryWarning() {

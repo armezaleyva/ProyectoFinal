@@ -40,7 +40,7 @@ class TeamDetailsViewController: UIViewController, UITableViewDelegate, UITableV
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = Aux.getFullTeamName(shortTeamName: (team?.img)!)
+        self.title = AuxLck.getFullTeamName(shortTeamName: (team?.img)!)
         self.imgTeam.image = UIImage(named: team!.teamImage)
     }
 
